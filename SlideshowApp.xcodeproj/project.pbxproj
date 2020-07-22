@@ -13,6 +13,7 @@
 		32007BB724C131A100479C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32007BB524C131A100479C19 /* Main.storyboard */; };
 		32007BB924C131A200479C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32007BB824C131A200479C19 /* Assets.xcassets */; };
 		32007BBC24C131A200479C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32007BBA24C131A200479C19 /* LaunchScreen.storyboard */; };
+		32007BC424C1DE4A00479C19 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32007BC324C1DE4A00479C19 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		32007BB824C131A200479C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32007BBB24C131A200479C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32007BBD24C131A200479C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32007BC324C1DE4A00479C19 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				32007BB824C131A200479C19 /* Assets.xcassets */,
 				32007BBA24C131A200479C19 /* LaunchScreen.storyboard */,
 				32007BBD24C131A200479C19 /* Info.plist */,
+				32007BC324C1DE4A00479C19 /* ResultViewController.swift */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				32007BB424C131A100479C19 /* ViewController.swift in Sources */,
 				32007BB024C131A100479C19 /* AppDelegate.swift in Sources */,
 				32007BB224C131A100479C19 /* SceneDelegate.swift in Sources */,
+				32007BC424C1DE4A00479C19 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
