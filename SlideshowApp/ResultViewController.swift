@@ -9,14 +9,13 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-
     @IBOutlet weak var LargeView: UIImageView!
     var x:UIImage! = UIImage(named:"gu")
     override func viewDidLoad() {
         super.viewDidLoad()
-        LargeView.image = x
 
         // Do any additional setup after loading the view.
+        LargeView.image = x
     }
     
 
