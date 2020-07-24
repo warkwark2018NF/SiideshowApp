@@ -34,7 +34,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="setReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hZO-2r-EZj"/>
+                                    <action selector="setReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eTB-IE-2YP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIr-6N-wlp">
@@ -93,6 +93,7 @@
                     <connections>
                         <outlet property="ahead" destination="wGp-Sd-puW" id="Lvy-xw-eTi"/>
                         <outlet property="back" destination="bIr-6N-wlp" id="YwZ-os-UbF"/>
+                        <outlet property="setReset" destination="DBF-Nq-JHZ" id="XxF-AT-bkO"/>
                         <outlet property="smallView" destination="ZTr-GV-hxe" id="VfN-qd-EH4"/>
                     </connections>
                 </viewController>
@@ -128,7 +129,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="d40-Pq-lkQ" kind="unwind" unwindAction="unwind:" id="Rb2-4S-oUp"/>
+                                    <segue destination="d40-Pq-lkQ" kind="unwind" unwindAction="unwind:" id="cNj-eN-fbF"/>
                                 </connections>
                             </button>
                         </subviews>
